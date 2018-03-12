@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+/* Note to self: I would like to implement particles.js in the background */
+body {
+  /* background-color:white; */
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Montserrat';
+  margin: 0;
+}
+h1 {
+  color:white;
+  text-align: center;
+  margin-top: 1.3em;
+  font-size: 2.2em;
+}
+
+blockquote{
+  font-family: Georgia, serif;
+  font-size: 18px;
+  font-style: italic;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  width:500px;
+  top: 90%;
+  padding: 0.25em 40px;
+  line-height: 1.45;
+  color: #383838;
+  /* border: 2px solid black; */
+}
+
+blockquote cite:before {
+content: "\2014 \2009";
+
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* border: 2px solid black; */
+  flex-direction: column;
+}
+.container2{
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid black; */
+  /* align-items: flex-end; */
+
+}
+
+.witem1 {
+top: 1%;
+right: 0;
+margin-left: 30px;
+padding-right: 30px;
+font-size: 1.3em;
+position: absolute;
+}
+.witem2 {
+right: 0;
+top: 4%;
+position: absolute;
+padding-right: 30px;
+text-transform: uppercase;
+color: #EE2C2C;
+}
+
+/* container for app */
+.btxt{
+  position:absolute;
+  height: 40%;
+  width: 98%;
+}
+.fa-twitter{
+  color: black;
+}
+
+#particles-js{
+  height: 100%;
+  background:white;
+}
+
+#Qbutton {
+  color: white;
+  text-decoration: none;
+  border: #ccc 1px solid;
+  padding: 10px 15px;
+  margin-top: 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: #EE2C2C;
+  /* opacity: .9; */
+
+}
+#quotes{
+  font-size: 15px;
+  font-family: 'Montserrat';
+}
+
+#timeContainer{
+  margin-top: 11em;
+  padding-top: 20px;
+}
+#time{
+  font-size: 7em;
+  font-family:'Montserrat';
+}
+#greeting{
+  font-size: 2.4em;
+}
+#weather{
+padding-bottom: 1.3em;
+}

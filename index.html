@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Document</title>
+</head>
+<body>
+  <div id="particles-js">
+    <div id="weatherContainer">
+      <strong><span class="witem1"id="weather"></span></strong>
+      <span class="witem2"id="city"></span>
+    </div>
+
+    <div class="btxt"id="timeContainer">
+      <strong><span id="time"></span> </strong>
+      <p id="greeting"></p>
+      <div class="container">
+        <blockquote id="quote">
+        </blockquote>
+        <strong>  <cite id="author" class="bottom"></cite></strong>
+        <div class="container2">
+        <button id="Qbutton" title="click me for a new quote!"class="item" type="button" onclick="quoteGenerator();" name="quoteGen">New Quote</button>
+        <a title="tweet this quote!" id="tweet" class="item" href="#"><i class="fa fa-twitter fa-2x"></i></a>
+      </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+  <script src="js/particles.js" charset="utf-8"></script>
+  <script src="js/app.js" charset="utf-8"></script>
+  <script src="js/quote.js" charset="utf-8"></script>
+  <script src="js/weather.js" charset="utf-8"></script>
+</body>
+</html>
