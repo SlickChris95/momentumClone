@@ -36,6 +36,7 @@ function quoteGenerator(){
     quote.textContent = quotes[randomNum];
    author.textContent = authors[randomNum];
 }
+quoteGenerator();
 
 /* Clock Display */
 function checkTime(i){
