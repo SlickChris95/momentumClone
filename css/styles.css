@@ -93,11 +93,19 @@ color: #EE2C2C;
   font-size: 16px;
   background-color: #EE2C2C;
   /* opacity: .9; */
+  font-weight: bold;
 
+}
+#Qbutton:hover{
+  color:black;
 }
 #quotes{
   font-size: 15px;
   font-family: 'Montserrat';
+}
+#tweet:hover{
+  font-size: 20px;
+  opacity: .9;
 }
 
 #timeContainer{
@@ -108,9 +116,25 @@ color: #EE2C2C;
   font-size: 7em;
   font-family:'Montserrat';
 }
+#timer{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 0 20px 20px 0;
+  /* color: #EE2C2C; */
+}
+#timer:hover{
+  font-size: 55px;
+  opacity: .8;
+}
+
 #greeting{
   font-size: 2.4em;
 }
 #weather{
 padding-bottom: 1.3em;
+font-size:1.5em;
+}
+#city {
+  padding-top: .9em;
 }

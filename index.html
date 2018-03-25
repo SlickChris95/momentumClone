@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
   <link rel="stylesheet" href="css/styles.css">
   <title>Document</title>
 </head>
@@ -26,12 +26,12 @@
 
         <div class="container2">
         <button id="Qbutton" title="click me for a new quote!"class="item" type="button" onclick="quoteGenerator();" name="quoteGen">New Quote</button>
-        <a title="tweet this quote!" id="tweet" class="item" href="#"><i class="fa fa-twitter fa-2x"></i></a>
+        <a title="tweet this quote!"  id="tweet" class="item" href="#"><i style="color:#55acee" onclick="tweetOut()" class="fab fa-twitter fa-2x"></i></a>
       </div>
       </div>
     </div>
-    <div class="alarmContainer">
-      <i title="set 25 minute alarm" class="fas fa-clock fa-2x"></i>
+    <div style="color:#EE2C2C"class="alarmContainer">
+      <i id="timer" onclick="alertSound()" title="START 25 MIN TIMER!"class="fas fa-stopwatch fa-3x"></i>
     </div>
   </div>
 
@@ -40,5 +40,6 @@
   <script src="js/app.js" charset="utf-8"></script>
   <script src="js/quote.js" charset="utf-8"></script>
   <script src="js/weather.js" charset="utf-8"></script>
+  <script src="js/alarm.js" charset="utf-8"></script>
 </body>
 </html>
